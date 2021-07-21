@@ -7,10 +7,10 @@
 
 .header {
     margin: 0 auto;
-  position: fixed;
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,7 +71,7 @@ color: var(--fontcolor-menu);
 }
 
 .title_b{
-    visibility: hidden;
+visibility: hidden;
     
 
 }
@@ -89,14 +89,14 @@ color: var(--fontcolor-menu);
 
  
 .logo {
-   padding-top: 20px;
+    padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 30px; 
 }
 
 .main {
-    font-size: 2.5rem;
-  flex-wrap: wrap;
+font-size: 2.5rem;
+flex-wrap: wrap;
  }
 
 .contacto{
