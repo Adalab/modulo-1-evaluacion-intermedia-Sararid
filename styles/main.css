@@ -1,18 +1,70 @@
-:root  {
-  
+:root {
   --fontcolor-menu: #4a4a4a;
-  --color-background: #3CDBC0;
-  --fontcolor-main: #FFFFFF ;
-}
-}
-body{
-    font-family: "Rubik", sans-serif;
+  --color-background: #3cdbc0;
+  --fontcolor-main: #ffffff;
+  --font-family: "Rubik", sans-serif;
 }
 
-.logo{
-    width: 155px;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.logo {
+  width: 155px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.menu{
-    font-size: 16px;
+.menu {
+  font-size: 16px;
+  font-family: var(--font-family);
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+}
+.menu_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.blog {
+  padding-right: 20px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  font-size: 30px;
+  font-family: var(--font-family);
+  color: var(--fontcolor-main);
+  background-color: var(--color-background);
+
+  /* Flexbox stuff */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
 }
